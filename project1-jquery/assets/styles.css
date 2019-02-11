@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+/*    border: solid 1px white;*/
+}
+/*command shift r- hard reload*/
+
+
+body{
+    background-color: darkgreen;
+    font-family: 'Megrim', cursive;
+    color: white;
+}
+
+
+.container{
+    width:768px;
+    height:1024px;
+    margin: 0 auto;  
+}
+
+
+.box{
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px; 
+}
+
+
+.header{
+    height:60px;  
+}
+
+
+
+
+/*Letter & Button */
+.letter-container{
+    display: flex;
+    align-items:baseline;
+    margin: 0 auto;
+    width: 400px;
+   
+    
+}
+
+
+h1{
+    font-size:40px;
+    color:#b58b54;
+    margin: 30px 0px 20px 0px;
+  
+}
+
+.letter-container h1{
+    font-size:449px;
+    font-weight:normal;
+    margin-left:60px;
+    margin-right:13.55px;
+    margin-top:-60px;
+    margin-bottom:-120px;
+    padding: 0;
+    color:white;     
+}
+
+
+p{
+    font-family: 'Gothic A1', sans-serif;
+     font-weight: 100;
+     font-size: 17px;
+     color: white;  
+    
+}
+
+
+#button{
+    width:85px;
+    height:15px;
+    border-radius:0%;
+    background-color: white;
+    margin-left: 515px;
+    margin-bottom: 51px;
+    
+}
+
+.box hr{
+    height: 13px;
+    background-color:#7a4f16;
+    margin-top: -51px;
+    border-color: #7a4f16; 
+    border-top-color: #7a4f16;
+    
+    
+}
+
+
+
+.box h3 {
+    font-size:45px;
+    
+   
+}
+
+
+
+
+
+.bottom-section{
+   width: 491px;
+}
+
+
+
+.photo-info{
+  width: 200px;
+  margin-bottom: 10px;
+  margin-left: 220px;
+  margin-top: -187px;
+}
+
+.photo-info img{
+     width: 190px;
+    
+        
+}
+
+.info{
+    width: 200px;
+     
+}
+
+
+.info h4{
+    font-family:'Megrim', cursive;
+    font-weight:800;
+    font-size:17px;
+    color:#b58b54;
+    text-transform: uppercase; 
+    margin: 15px 0px
+}
+
+
+.info h5{
+    font-family: 'Gothic A1', sans-serif;
+    font-weight:300;
+    font-size:12px;
+    color: white;
+    margin-top:-11px;
+}
+
+
+.flexy-box {
+    display: flex;
+    align-items: flex-start; 
+}
+
+
+.sources{
+    width: 300px;
+    font-size:10.4 px;
+    font-family:'Megrim', cursive;
+    margin-top: 40px;
+}
+
+
+.sources h4{
+    font-family:'Megrim', cursive;
+    font-weight: 700;
+    font-size: 22px;
+    color:#b58b54;
+    text-transform: uppercase;
+    margin-left: 380px;
+    margin-bottom: 10px;
+    
+}
+
+
+
+.sources p{
+   font-family: 'Gothic A1', sans-serif;
+   font-weight: 500;
+   font-size: 11px; 
+   margin-left: 25px;
+   width: 539px;
+}
+
+
+
