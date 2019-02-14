@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -31,7 +32,13 @@ body{
     height:60px;  
 }
 
-
+.analysis {
+    position: absolute;
+    z-index:20;
+    top: 42px;
+    left:148px;
+    
+}
 
 
 /*Letter & Button */
@@ -52,8 +59,8 @@ h1{
   
 }
 
-.letter-container h1{
-    font-size:449px;
+.letter-container h1 {
+    font-size:500px;
     font-weight:normal;
     margin-left:60px;
     margin-right:13.55px;
@@ -185,4 +192,21 @@ p{
 }
 
 
+a {
+    text-decoration:none;
+    text-transform: uppercase;
+    color: #b58b54;
+}
 
+
+a:hover {
+    background-color: ;
+    font-weight: 900;
+    font-size: 40px;
+    color:#b58b54;      
+}
+
+
+a:visited {
+    color: lightcoral;
+}
