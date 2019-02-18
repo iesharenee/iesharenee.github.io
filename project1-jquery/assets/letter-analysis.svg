@@ -30,11 +30,11 @@
 <defs>
     <style>
       .cls-1 {
-        font-size: 520px;
+        font-size: 725px;
         fill: #f0ff01;
         font-family: "Gothic A1 ExtraLight";
       }
     </style>
   </defs>
-  <text id="F" class="cls-1" x="141.653" y="437.137">F</text>
+  <text id="F" class="cls-1" x="92.652" y="559.137">F</text>
 </svg>

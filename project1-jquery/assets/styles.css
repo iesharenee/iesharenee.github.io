@@ -35,8 +35,8 @@ body{
 .analysis {
     position: absolute;
     z-index:20;
-    top: 42px;
-    left:-11px;
+    top: -117px;
+    left:-14px;
     
 }
 
@@ -54,9 +54,9 @@ body{
 
 
 h1{
-    font-size:40px;
+    font-size:36px;
     color:#b58b54;
-    margin: 30px 0px 20px 0px;
+    margin: 25px 10px 10px 0px;
   
 }
 
@@ -66,7 +66,7 @@ h1{
     margin-left:60px;
     margin-right:13.55px;
     margin-top:-60px;
-    margin-bottom:-71px;
+    margin-bottom:-56px;
     padding: 0;
     color:white;     
 }
@@ -75,9 +75,9 @@ h1{
 p{
     font-family: 'Gothic A1', sans-serif;
      font-weight: 100;
-     font-size: 17px;
+     font-size: 14px;
      color: white;  
-    
+     margin-left: 0px;
 }
 
 
@@ -121,7 +121,7 @@ p{
 .photo-info{
   width: 200px;
   margin-bottom: 10px;
-  margin-left: 220px;
+  margin-left: 235px;
   margin-top: -187px;
 }
 
@@ -140,10 +140,12 @@ p{
 .info h4{
     font-family:'Megrim', cursive;
     font-weight:800;
-    font-size:17px;
+    font-size:19px;
     color:#b58b54;
     text-transform: uppercase; 
-    margin: 15px 0px
+    margin: 5px 0px 15px 14px 
+    
+
 }
 
 
@@ -153,6 +155,9 @@ p{
     font-size:12px;
     color: white;
     margin-top:-11px;
+    margin-left: 13px;
+
+    
 }
 
 
@@ -173,11 +178,12 @@ p{
 .sources h4{
     font-family:'Megrim', cursive;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 27px;
     color:#b58b54;
     text-transform: uppercase;
     margin-left: 380px;
     margin-bottom: 10px;
+    margin-top: -12px;
     
 }
 
@@ -186,9 +192,9 @@ p{
 .sources p{
    font-family: 'Gothic A1', sans-serif;
    font-weight: 500;
-   font-size: 11px; 
-   margin-left: 25px;
-   width: 539px;
+   font-size: 12px; 
+   margin-left: 38px;
+   width: 530px;
 }
 
 
@@ -202,11 +208,11 @@ a {
 a:hover {
     background-color: ;
     font-weight: 900;
-    font-size: 40px;
+    font-size: 16px;
     color:#b58b54;      
 }
 
 
 a:visited {
-    color: lightcoral;
+    color: goldenrod;
 }
