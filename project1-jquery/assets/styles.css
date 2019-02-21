@@ -100,7 +100,26 @@ p{
     border-color: #7a4f16; 
     border-top-color: #7a4f16;
     
-    
+}
+
+.letter-set {
+ font-size: 50px;
+ line-height: 50px;
+ text-transform:uppercase;
+ font-weight: 900px;
+ color: white;
+ letter-spacing: 15px;
+ padding-bottom: 10px;
+       
+}
+
+
+
+.overflow {
+ overflow-x: scroll;
+ overflow-y: hidden;
+ width: 650px;
+
 }
 
 
