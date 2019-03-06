@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+   
+    background-color: skyblue;
+}
+
+#container {
+   height: 768px;
+    width: 1024px;
+    margin: 0 auto;  
+    position: relative;
+}
+
+
+.header {
+
+}
+
+
+
+h1{
+    color: white;
+    font-size: 60px;
+    text-align: center;  
+}
+
+p {
+    font-weight: 500;
+    font-size: 40px;
+    color: black;
+    position: relative;
+    bottom: 540px;
+    left: 310px;
+   
+}
+p2 {
+   font-weight: 500;
+    font-size: 40px;
+    color: black;
+    position: relative;
+    bottom: 500px;
+    left: 300px;  
+}
+
+.photo-info{
+    width: 1090px;
+    height: 0px;
+}
+
+
+.photo-info img {
+    width: 900px;
+    position: absolute;
+    top: 200px;
+    left: 96px;
+    
+}
+
+.photo-info-2 img {
+    width:950px;
+    position:absolute;
+    top: 100px;
+    left: 70px;
+    
+    
+}
+
+.square {
+    width:727px;
+    height: 674px;
+    background-color: skyblue;
+    margin: 0 auto;
+}
+
+.square-2 {
+    width:727px;
+    height: 674px;
+    background-color: #f6ff68;
+    margin: 0 auto;
+    border-radius: 20%;
+    margin-top: 30px;
+}
+
+
+
+.button-group {
+    background-color: skyblue;
+    padding: 12px 24px;
+    cursor: pointer; 
+    font-size: 20px;
+    font: center;
+    width: 681px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.explanation {
+
+ 
+  border-radius: 100%;
+  border: 10px;
+  background-color:white;
+  color: black;
+  padding: 40px 10px;
+  font-size: 18px;
+  cursor: pointer;
+  position: relative;
+  bottom: 80px;
+  left:170px; 
+  text-align: center;
+}
+
+
+.how-to {
+  
+  border-radius: 100%;
+  border: 10px;
+  background-color:white;
+  color: black;
+  padding: 40px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  position: relative;
+  bottom: 80px;
+  left: 210px; 
+  text-align: center;
+}
+
+
+.safety-tips {
+ 
+  
+  border-radius: 90%;
+  border: 10px;
+  background-color:white;
+  color: black;
+  padding: 40px 10px;
+  font-size: 18px;
+  cursor: pointer;
+  position: relative;
+  bottom: 80px;
+  left: 250px; 
+  text-align: center;
+}
+
+.button-group-2 {
+    background-color: skyblue;
+    padding: 12px 24px;
+    cursor: pointer; 
+    font: center;
+    width: 681px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#clutch-button {
+   width: 75px;
+   height: 23px;
+   margin: 0 auto;
+   position: relative;
+   top: 350px;
+   left: 29px;
+   font: center;
+   cursor: pointer;
+   font-size: 18px;
+    
+}
+
+#break-button {
+   width: 75px;
+   height: 23px;
+   margin: 0 auto;
+   position: relative;
+   top: 350px;
+   left: 330px;
+   font: center;
+   cursor: pointer;
+   font-size: 18px;      
+}
+
+#gas-button {
+   width: 75px;
+   height: 23px;
+   margin: 0 auto;
+   position: relative;
+   top: 350px;
+   left: 540px;
+   font: center;
+   cursor: pointer;
+   font-size: 18px; 
+}
+
+.block {
+  display: block;
+  width: 100%;
+  border: 10px;
+  background-color:white;
+  color: black;
+  padding: 30px 28px;
+  font-size: 40px;
+  cursor: pointer;
+  text-align: center;
+   margin:150px 0px 0px 0px;
+}
+
+
+
+.home-button{
+  display: block;
+  width: 10%;
+  border-radius: 10%;
+  border: 10px;
+  background-color:white;
+  color: black;
+  padding: 10px 10px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  position: absolute;
+  top:500px;  
+  left: 950px;
+   
+}
+
+.back-button {
+  display: block;
+  width: 5%;
+  border-radius: 10%;
+  border: 10px;
+  background-color:white;
+  color: black;
+  padding: 10px 10px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  position: absolute;
+  bottom: 30px;
+  left: 1150px; 
+}
+
+
+.back-button-2 {
+  display: block;
+  width: 5%;
+  border-radius: 10%;
+  border: 10px;
+  background-color:white;
+  color: black;
+  padding: 10px 10px;
+  font-size: 25px;
+  cursor: pointer;
+  text-align: center;
+  position: absolute;
+  bottom: -70px;
+  left: 800px; 
+}
+
+.modal-content{
+  visibility: hidden;    
+}
+
+.modal-content-2{
+  visibility: hidden;    
+}
+
+.modal-content-3{
+  visibility: hidden;    
+}
+
+.visible {
+    visibility: visible !important;
+}
+
+
+
+
+
+
+
