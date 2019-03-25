@@ -3,13 +3,15 @@ $(document).ready(function (){
     $('#clutch-button').click(function() {
         //ID or Class name of the modal you want to appear on click goes into this second area.
         $("#clutch-modal").toggleClass("visible");
+         $(".carrot").toggleClass("visible");
         });
 }); 
 
 // Button to close a modal
 $(document).ready(function (){
-    $('#place-modal_close-icon-name-here').click(function() {
-        $("#place-modal-name-here").toggleClass("visible")
+    $('#clutch-close').click(function() {
+        $("#clutch-modal").toggleClass("visible");
+        $(".carrot").toggleClass("visible");
         });
 });
 
@@ -22,15 +24,19 @@ $(document).ready(function (){
     $('#break-button').click(function() {
         //ID or Class name of the modal you want to appear on click goes into this second area.
         $("#break-modal").toggleClass("visible");
-        });
+         $(".carrot").toggleClass("visible");
+    });
 }); 
 
 // Button to close a modal
 $(document).ready(function (){
-    $('#place-modal_close-icon-name-here').click(function() {
-        $("#place-modal-name-here").toggleClass("visible")
-        });
+    $('#break-close').click(function() {
+        $("#break-modal").toggleClass("visible")
+        $(".carrot").toggleClass("visible");
+       });
 });
+
+
 
 
 
@@ -40,14 +46,16 @@ $(document).ready(function (){
     $('#gas-button').click(function() {
         //ID or Class name of the modal you want to appear on click goes into this second area.
         $("#gas-modal").toggleClass("visible");
+         $(".carrot").toggleClass("visible");
         });
 });
 
 // Button to close a modal
 $(document).ready(function (){
-    $('#place-modal_close-icon-name-here').click(function() {
-        $("#place-modal-name-here").toggleClass("visible")
-        });
+    $('#gas-close').click(function() {
+        $("#gas-modal").toggleClass("visible")
+        $(".carrot").toggleClass("visible");
+       });
 });
 
 
@@ -73,3 +81,4 @@ $(document).ready(function (){
         $("#place-modal-name-here").toggleClass("visible")
         });
 });
+
