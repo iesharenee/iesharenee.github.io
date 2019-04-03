@@ -1,5 +1,7 @@
 body {
  background-color: #7B5284;
+ width: 375px; 
+  margin: 0 auto 30px auto;
 }
 
 
@@ -16,11 +18,13 @@ body {
 
 h1 {
     color: #EBD038;
-    font-size: 1.5em;
+    font-size: 3.5em;
     text-align: center;
     font-weight: 800;
 }
  
+
+
 .header h3 {
     color: #F5A2F0;
     font-size: 1.0625em;
@@ -28,50 +32,21 @@ h1 {
 }
 
 
-.contact-info h2 {
-    position: relative;
-    top: -140px;
-    
-}
-
-
-.background-info h2 {
-    position: relative;
-    top: -130px;
-    
-}
-
-.education h2 {
-    position: relative;
-    top: -110px;
-}
-
-
-
-.experience h2 {
-    position: relative;
-    top: -110px;
-}
-
-
-
-
 
 h2 {
     color: #EBD038;
-    font-size: 1.1875em;
+    font-size: 1.4em;
     font-weight: bold; 
-    text-align: center;
-    position: relative;
-    top: -120px;
+    margin-bottom: -.625em;
+    margin-top: 1.25em;
+   
+    
 }
 
 .contact-info p{
     font-size: 1em;
     color: #F5A2F0;
-     text-align: center;
-     position: relative;
-     top: -150px;
+     
    }
    .address{
     color: white;
@@ -83,46 +58,26 @@ h2 {
     color: white;
 }
 
-.background-info p {
-    text-align: center;
-    font-size: 1em; 
-    position: relative;
-    top: -145px;
-}
 
 
 
-.skills p{
-    text-align:center; 
+ul {
+    color: #F5A2F0;
     font-size: 1em;
-    position: relative;
-    top: -130px;
 }
 
-.education p {
-   position: relative;
-   top: -130px;
-}
 
-.experience p {
-    position: relative;
-    top:-120px
-}
 
 p {
     font-size: 1em;
     color: #F5A2F0;
-    text-align: center;
+    
     }
 
 
 
 .photo-info img {
     width: 13.9375em;
-    height: 22.9375em;
-    position: relative;
-    left: 480px;
-  
 }
 
 
@@ -133,40 +88,38 @@ p {
     color: white;
     font-weight: bold;
     line-height: 1.7;
-    text-align: center;
-    position: relative;
-    top: -135px;
+   
 }
 
-.education h3 {
-    position: relative;
-    top: -120px;
-}
-
-.experience h3 {
-    position: relative;
-    top: -120px
-}
 
 h3 {
     font-size: 1em;
     color: white;
     font-weight: bold;
-    text-align: center;
     
 }
 
 
 
-@media only screen and (min-width:375px) {
-    .photo-info img {
-        height: 22.9375em;
-        margin: 0;
-        padding: 0;
-        position: relative;
-        left:330px
+@media only screen and (min-width:960px) {
+    
+    body {
+        width: 960px;
     }
     
+    .flex {
+        display: flex;
+       
+    } 
+    
+    .spacing {
+        margin-right: 20px;
+    }
+    
+    .photo-info img {
+    width: 13.9375em;   
+        
+    }
 }
 
 
