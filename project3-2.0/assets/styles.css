@@ -26,11 +26,34 @@ project img {
 } 
 
 
+@media only screen and (min-width:768px) {
+
+.project {
+/*    height: 3em;*/
+    width: 20%;
+    background-color: orange;
+    margin-right: .333333333333%;
+}
+
+.project-parent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+} 
+    
+
+}
+
+
+
+
+
+
 @media only screen and (min-width:960px) {
     
     .project {
 /*    height: 3em;*/
-    width: 33%;
+    width: 20%;
     background-color: orange;
     margin-right: .333333333333%;
 }
