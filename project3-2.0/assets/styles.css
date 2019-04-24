@@ -7,15 +7,99 @@ body {
     padding: 1.5;
 /*    margin: 0 auto 30px auto; */  
 }
+ 
+
+nav {
+    text-align: center;
+    width: 100%;
+}
+
+.nav-bar {
+    overflow: hidden;
+    background-color: white;
+    border-top: .25rem solid white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-bottom: 10px;
+}
+/*
+
+.nav-bar h1 {
+    position: absolute;
+    left: -2px;
+}
+*/
+
+.topnav {
+    overflow: hidden;
+    position: relative;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: .875rem 1rem;
+    text-decoration: none;
+    font-size: .95rem;
+}
+
+.topnav a.icon {
+    color: black;
+    float: right;
+    display: block;
+    font-size: 1.25rem;
+}
+
+.topnav a:hover {
+    background-color: none;
+    color: #0c2340;
+}
+
+.topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.topnav.responsive a {
+    float: none;
+    display: block;
+}
+
+.main-nav a {
+    display: none;
+}
+
+.main-nav h1 {
+    position: absolute;
+    left: 20px;
+    
+}
+
+
+.header {  
+text-align: left;
+}
+
+
+
+
+
+
+
 
 .project {
 /*    height: 3em;*/
     width: 100%;
-    background-color: orange;
+/*    background-color: orange;*/
     margin-right:0;
 }
 
-project img {
+.project img {
     width: 100%;
 }
 
@@ -26,12 +110,51 @@ project img {
 } 
 
 
+.indivdual-project {
+    margin-bottom: 1.9em;
+}
+
+
+
+
+
+
 @media only screen and (min-width:768px) {
+    
+    
+   .nav-bar {
+        background-color: white;
+        height: 60px;
+    }
+    
+    
+    .main-nav {
+        display: flex;
+        margin-right: 30px;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .topnav a.icon {
+        display: none;
+    }
+
+    .topnav.responsive .icon {
+        display: none;
+    }
+
+    .main-nav a {
+        display: flex;
+    }  
+    
+
+    
+    
 
 .project {
 /*    height: 3em;*/
-    width: 20%;
-    background-color: orange;
+    width: 24%;
+/*    background-color: orange;*/
     margin-right: .333333333333%;
 }
 
@@ -51,19 +174,55 @@ project img {
 
 @media only screen and (min-width:960px) {
     
-    .project {
-/*    height: 3em;*/
-    width: 20%;
-    background-color: orange;
-    margin-right: .333333333333%;
-}
+    
+    
+    .container {
+        width: 90vw;
+        margin: 0 auto;
+    }
+    
+    nav {
+        width: 100vw;
+        margin: 0 auto;
+    }
 
+    .nav-bar {
+        background-color: white;
+        height:60px;
+    }
+/*
+   .nav-bar h1 {
+    position: absolute;
+    left: -20px;
+    top: -15px;
+} 
+*/
+    
+    .main-nav {
+        margin-right: 0px;
+    }
+
+    .main-nav a {
+        font-size: .95rem;
+    }
+    
+
+    
+
+   
+
+/*
 .project-parent {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
 } 
-    
+*/
+    .project img {
+        width: 100%;
+    }   
     
 }
     
