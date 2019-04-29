@@ -109,12 +109,21 @@ text-align: left;
     flex-wrap: wrap;
 } 
 
+.explanation p {
+    text-align: center;
+    
+}
+
+
 
 .indivdual-project {
     margin-bottom: 1.9em;
 }
 
-
+.indivdual-project img {
+   width: 100%; 
+  
+}
 
 
 
@@ -148,9 +157,6 @@ text-align: left;
     }  
     
 
-    
-    
-
 .project {
 /*    height: 3em;*/
     width: 24%;
@@ -164,7 +170,23 @@ text-align: left;
     flex-wrap: wrap;
 } 
     
+ .indivdual-project img {
+   width: 80%; 
+}   
+    
 
+  .explanation p {
+      text-align: center;   
+    }
+ 
+ .project-center {
+    margin-left: 150px;
+        
+        
+    }  
+   
+    
+    
 }
 
 
@@ -207,9 +229,6 @@ text-align: left;
     }
     
 
-    
-
-   
 
 /*
 .project-parent {
@@ -223,6 +242,19 @@ text-align: left;
     .project img {
         width: 100%;
     }   
+    
+    .indivdual-project img {
+    width: 75%; 
+    }   
+    
+    .project-center {
+    margin-left: 180px;
+          
+    } 
+    
+   }
+    
+   
     
 }
     
