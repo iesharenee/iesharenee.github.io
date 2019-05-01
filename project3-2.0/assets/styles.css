@@ -74,6 +74,13 @@ nav {
     display: none;
 }
 
+.flex {
+    display: block;
+  flex-direction: column;
+    
+}
+
+
 .main-nav h1 {
     position: absolute;
     left: 20px;
@@ -125,14 +132,23 @@ text-align: left;
 }
 
 .indivdual-project img {
-   width: 50%; 
+   width: 100%; 
   
   
 }
 
+.header-photo {
+    display:none;
+        
+}
+
+
+
+/*
 .header-photo img {
     width: 100vw;
 }
+*/
 
 .title {
     margin-top: 60px;
@@ -147,12 +163,12 @@ text-align: left;
     text-align: center;
 }
 
-
-.flex {
-    display: flex;
-    flex-direction: row;
+.project-center {
+    margin: 0 auto;
+    width: 100%;
     
 }
+
 
 /*
 #rectangle {
@@ -163,6 +179,7 @@ text-align: left;
 }
 */
 
+/*
 .indivdual-project.flex {
     margin-top: 20px;
     
@@ -173,6 +190,7 @@ img.square {
     height: 50%;
     width: 50%;
 }
+*/
 
 
 
@@ -215,25 +233,28 @@ img.square {
     position: absolute;
     top: -4px;
 
-} 
+    } 
     
-
-.project {
-/*    height: 3em;*/
+    .project {
     width: 24%;
-/*    background-color: orange;*/
     margin-right: .333333333333%;
-}
+    }
 
-.project-parent {
+    .project-parent {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-} 
+    } 
+  
+    
+   .project img {
+        width: 100%;
+    }    
+    
     
  .indivdual-project img {
-   width: 80%; 
-}   
+   width: 60%; 
+    }   
     
 
   .explanation p {
@@ -241,12 +262,33 @@ img.square {
     }
  
  .project-center {
-    margin-left: 150px;
-        
-       
+    margin-left: 200px;  
     }  
    
+  .indivdual-project.flex {
+    margin-top: 20px;
+    }
+
+    img.square {
+    height: 50%;
+    width: 50%;
+    }
+  
+    .flex {
+    display: flex;
+    flex-direction: row;
     
+    }
+    
+    .header-photo{
+       display:block;
+    }
+    
+    
+    
+    .header-photo img {
+    width: 100vw;
+}
     
 }
 
@@ -273,13 +315,7 @@ img.square {
         background-color: white;
         height:60px;
     }
-/*
-   .nav-bar h1 {
-    position: absolute;
-    left: -20px;
-    top: -15px;
-} 
-*/
+
     
     .main-nav {
         margin-right: 0px;
@@ -290,30 +326,14 @@ img.square {
     }
     
 
-
-/*
-.project-parent {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 80%;
-    margin: 0 auto;
-} 
-*/
     .project img {
         width: 100%;
     }   
     
-    .indivdual-project img {
-    width: 75%; 
-    }   
-    
-    .project-center {
-    margin-left: 180px;
-          
-    } 
-    
-   }
+.project-center {
+    margin-left: 260px;  
+    }  
+   
     
    
     
