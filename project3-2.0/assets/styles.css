@@ -77,18 +77,13 @@ nav {
 .main-nav h1 {
     position: absolute;
     left: 20px;
-    
+
 }
 
 
 .header {  
 text-align: left;
 }
-
-
-
-
-
 
 
 
@@ -109,11 +104,20 @@ text-align: left;
     flex-wrap: wrap;
 } 
 
-.explanation p {
-    text-align: center;
+.explanation {
+    margin-left: 40px;
     
 }
 
+.explanation h2 {
+    text-align: center;
+}
+
+
+.explanation p {
+    text-align: justify;
+    
+}
 
 
 .indivdual-project {
@@ -121,9 +125,60 @@ text-align: left;
 }
 
 .indivdual-project img {
-   width: 100%; 
+   width: 50%; 
+  
   
 }
+
+.header-photo img {
+    width: 100vw;
+}
+
+.title {
+    margin-top: 60px;
+    
+}
+
+.title h2 {
+    text-align:center;
+}
+
+.title p {
+    text-align: center;
+}
+
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+/*
+#rectangle {
+    width: 100%;
+    background-color: red;
+    height: 80px;
+    
+}
+*/
+
+.indivdual-project.flex {
+    margin-top: 20px;
+    
+    
+}
+
+img.square {
+    height: 50%;
+    width: 50%;
+}
+
+
+
+
+
+
 
 
 
@@ -156,6 +211,12 @@ text-align: left;
         display: flex;
     }  
     
+   .main-nav h1 {
+    position: absolute;
+    top: -4px;
+
+} 
+    
 
 .project {
 /*    height: 3em;*/
@@ -182,7 +243,7 @@ text-align: left;
  .project-center {
     margin-left: 150px;
         
-        
+       
     }  
    
     
