@@ -1,5 +1,5 @@
 body {
- background-color: #7B5284;
+ background-color: white;
  width: 375px; 
   margin: 0 auto 30px auto;
 }
@@ -11,34 +11,108 @@ body {
     
 }
 
+nav {
+    text-align: center;
+    width: 100%;
+}
+
+.nav-bar {
+    overflow: hidden;
+    background-color: white;
+    border-top: .25rem solid white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+
+.topnav {
+    overflow: hidden;
+    position: relative;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    font-family: minion-pro, serif;
+    font-weight: 500;
+    text-align: center;
+    padding: .875rem 1rem;
+    text-decoration: none;
+    font-size: .95rem;
+}
+
+.topnav a.icon {
+    color: black;
+    float: right;
+    display: block;
+    font-size: 1.25rem;
+}
+
+.topnav a:hover {
+    background-color: none;
+    color: black;
+}
+
+.topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.topnav.responsive a {
+    float: none;
+    display: block;
+}
+
+.main-nav a {
+    display: none;
+}
+
+
+
 .flex {
     margin-bottom: 2.5em;
 }
 
 
 h1 {
-    font-family: 'Arvo', serif;
-    color: #EBD038;
-    font-size: 3.5em;
+    font-family: minion-pro, serif;
+    font-size: 2.5em;
+    font-weight: 900;
+    font-style: normal;
+    color: black;
     text-align: center;
-    font-weight: bold;
 }
- 
+
+
+
+
+.header {
+    margin-top:60px;
+}
 
 
 .header h3 {
-    font-family: 'Arvo', serif;
-    color: #F5A2F0;
-    font-size: 1.0625em;
+    font-family: minion-pro, serif;
+     font-size: 1.0625em;
+    font-weight: 600;
+    font-style: normal;
+    color: black;
     text-align: center;
 }
 
 
 
 h2 {
-    color: #EBD038;
+    color: black;
+    font-family: minion-pro, serif;
     font-size: 1.4em;
-    font-weight: bold; 
+    font-weight: 800; 
+    font-style: normal;
     margin-bottom: -.625em;
     margin-top: 1.25em;
    
@@ -46,36 +120,28 @@ h2 {
 }
 
 .contact-info p{
-    font-family: 'Arvo', serif;
+    font-family: minion-pro, serif;
     font-size: 1em;
-    color: #F5A2F0;
+    font-weight: 200;
+    font-style: normal;
+    color: black;
      
    }
-   .address{
-    color: white;
-   }
-    .phone {
-    color: white;
-   }
-   .email{
-    color: white;
-}
-
-
+   
 
 
 ul {
-    font-family: 'Arvo', serif;
-    color: #F5A2F0;
+    font-family: minion-pro, serif;
+    color: black;
     font-size: 1em;
 }
 
 
 
 p {
-    font-family: 'Arvo', serif;
+    font-family: minion-pro, serif;
     font-size: 1em;
-    color: #F5A2F0;
+    color: black;
     
     }
 
@@ -84,35 +150,88 @@ p {
 .photo-info img {
     width: 13.9375em;
     margin-left: 80px;
-    margin-top: 50px;
+    margin-top: 65px;
 }
 
 
 
 .honors-awards h3 {
-    font-family: 'Arvo', serif;
+    font-family: minion-pro, serif;;
     font-size: 1em;
-    color: white;
-    font-weight: bold;
+    color: black;
+    font-weight: 800;
     line-height: 1.7;
    
 }
 
 .header h3 {
-    margin-top: -30px;
+    margin-top: -20px;
 }
 
 h3 {
-    font-family: 'Arvo', serif;
+    font-family: minion-pro, serif;
     font-size: 1em;
-    color: white;
-    font-weight: bold;
+    color: black;
+    font-weight: 900;
     
 }
+
+@media only screen and (min-width:768px) {
+    
+    
+   .nav-bar {
+        height: 30px;
+    }
+    
+    
+    .main-nav {
+        display: flex;
+        margin-right: 30px;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .topnav a.icon {
+        display: none;
+    }
+
+    .topnav.responsive .icon {
+        display: none;
+    }
+
+    .main-nav a {
+        display: flex;
+    }  
+    
+   .main-nav h1 {
+    position: absolute;
+    top: -4px;
+
+    } 
+}
+
+
+
 
 
 
 @media only screen and (min-width:960px) {
+    
+   nav {
+        width: 100vw;
+        margin: 0 auto;
+    }
+
+
+    .main-nav {
+        margin-right: 0px;
+    }
+
+    .main-nav a {
+        font-size: .95rem;
+    } 
+    
+    
     
     body {
         width: 960px;
@@ -124,12 +243,13 @@ h3 {
     } 
     
     .header {
-        margin-top: 60px;
-        margin-left: 30px;
+        margin-top: 50px;
+        margin-left: 330px;
+        margin-bottom: 20px;
     }
     
     .spacing {
-        margin-right: 40px;
+        margin-right: 120px;
     }
     
     .photo-info img {
@@ -145,6 +265,7 @@ h3 {
     
     .left {
         margin-top: -50px;
+        margin-left: 170px;
     }
 }
 

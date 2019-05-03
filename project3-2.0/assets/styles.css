@@ -35,6 +35,9 @@ nav {
     float: left;
     display: block;
     color: black;
+    font-family: minion-pro, serif;
+    font-weight: 500;
+    font-style: normal;
     text-align: center;
     padding: .875rem 1rem;
     text-decoration: none;
@@ -69,18 +72,20 @@ nav {
 }
 
 .flex {
-    display: block;
+  display: block;
   flex-direction: column;
+    
     
 }
 
 
 h1#name-header{
+    font-family: minion-pro, serif;
+    font-weight: 800;
     position: absolute;
     top: -15px;
     left: 20px;
     z-index: 444;
-    
 
 }
 
@@ -107,17 +112,16 @@ text-align: left;
 } 
 
 .explanation {
-    margin-left: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
     
-}
-
-.explanation h2 {
-    text-align: center;
 }
 
 
 .explanation p {
-    text-align: justify;
+   font-family: minion-pro, serif;
+    text-align: center;
+    font-size: 15px;
     
 }
 
@@ -161,28 +165,53 @@ margin-left: 35px;
 }
 
 .title h2 {
+    font-family: minion-pro, serif;
     text-align:center;
+    font-size: 2.4em;
 }
 
 .title p {
+    font-family: minion-pro, serif;
     text-align: center;
+    font-size: .987em;
+    margin-top: -10px;
 }
 
 .about-info {
- text-align:center;   
+     font-family: minion-pro, serif;
+ text-align:center; 
+    font-size: 1em;
+    font-style: italic;
 }
 
 .about-info-2 {
- text-align:center;   
+     font-family: minion-pro, serif;
+ text-align:center; 
+    font-size: 1em;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 40px;
 }
 
-
-.project-center {
-    margin: 0 auto;
-    width: 100%;
+.contact-info {
+    margin-top: 80px;
     
 }
 
+.contact-info p{
+  font-family: minion-pro, serif;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.3em;
+ line-height: 1.8;
+
+    
+}
+
+.project-center {
+    margin: 0 auto;
+    width: 100%;  
+}
 
 
 
@@ -248,17 +277,14 @@ margin-left: 35px;
    width: 60%; 
     }   
     
-
-  .explanation p {
-      text-align: center;   
-    }
  
  .project-center {
     margin-left: 200px;  
     }  
    
   .indivdual-project.flex {
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-left: -200px;
     }
 
     img.square {
@@ -284,18 +310,25 @@ margin-left: 35px;
     
     .header-photo-2  {
     margin-left: 65px;
+    width: 65vw;
         
     }
     
-     .header-photo-2  {
-      width: 65vw;
-        
-    }
     
+    .about-info-2 {
+    margin-left: 90px;
+    margin-right: 55px;
 }
 
-
-
+    .explanation {
+        margin-left: 40px;
+        margin-right: 200px;
+    }
+    
+   .explanation p {
+       text-align: justify;
+    
+}
 
 
 
@@ -332,8 +365,8 @@ margin-left: 35px;
         width: 100%;
     }   
     
-.project-center {
-    margin-left: 260px;  
+   .project-center {\
+    margin-left: 235px;  
     }  
    
       .header-photo-2  {
@@ -341,6 +374,10 @@ margin-left: 35px;
         
     }
     
+    .explanation {
+        margin-left: 40px;
+        margin-right: 160px;
+    }
    
     
 }
