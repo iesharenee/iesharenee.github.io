@@ -259,8 +259,16 @@ margin-left: 35px;
     margin-right: .333333333333%;
     }
 
+    .project-parent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    } 
   
-     
+    
+   .project img {
+        width: 100%;
+    }    
     
     
  .indivdual-project img {
@@ -354,7 +362,10 @@ margin-left: 35px;
     }
     
 
-   
+    .project img {
+        width: 100%;
+    }   
+    
    .project-center {
     margin-left: 235px;  
     }  
@@ -366,7 +377,7 @@ margin-left: 35px;
     
     .explanation {
         margin-left: 40px;
-        margin-right: 160px;
+        margin-right: 200px;
     }
    
     
