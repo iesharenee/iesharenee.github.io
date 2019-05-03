@@ -73,8 +73,7 @@ nav {
 
 .flex {
   display: block;
-  flex-direction: column;
-    
+  flex-direction: column;  
     
 }
 
@@ -86,7 +85,6 @@ h1#name-header{
     top: -15px;
     left: 20px;
     z-index: 444;
-
 }
 
 
@@ -261,16 +259,8 @@ margin-left: 35px;
     margin-right: .333333333333%;
     }
 
-    .project-parent {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    } 
   
-    
-   .project img {
-        width: 100%;
-    }    
+     
     
     
  .indivdual-project img {
@@ -364,11 +354,8 @@ margin-left: 35px;
     }
     
 
-    .project img {
-        width: 100%;
-    }   
-    
-   .project-center {\
+   
+   .project-center {
     margin-left: 235px;  
     }  
    
