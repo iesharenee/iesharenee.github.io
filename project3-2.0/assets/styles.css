@@ -266,6 +266,10 @@ margin-left: 35px;
     } 
   
     
+   .project img {
+        width: 100%;
+    }    
+    
     
  .indivdual-project img {
    width: 60%; 
@@ -357,6 +361,10 @@ margin-left: 35px;
         font-size: .95rem;
     }
     
+
+    .project img {
+        width: 100%;
+    }   
     
    .project-center {
     margin-left: 235px;  
