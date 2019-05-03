@@ -321,12 +321,15 @@ margin-left: 35px;
 }
 
     .explanation {
-        margin-left: 40px;
+        margin-left: 20px;
         margin-right: 200px;
     }
     
    .explanation p {
        text-align: justify;
+       position: relative;
+       top: 260px;
+       
     
 }
 
